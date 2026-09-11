@@ -1,6 +1,6 @@
 # A comic folder from scripts to reader
 
-Run from the pack root. First install the package dependencies with `pnpm install --frozen-lockfile`. The API commands still run without extra dependencies; compression and comic packaging use Sharp. Resolve the pack from the physical skill location, three directory levels above `origin-story/`, rather than assuming a shell working directory.
+Run from the pack root. First install the package dependencies with `pnpm install --frozen-lockfile`. The API commands still run without extra dependencies; compression and comic packaging use Sharp. Resolve the pack from the physical skill location, three directory levels above the physical `.agents/skills/origin-story/` folder, rather than assuming a shell working directory.
 
 ## Production plan
 

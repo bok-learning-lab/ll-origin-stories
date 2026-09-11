@@ -1,6 +1,6 @@
 # Learning Lab Origin Stories
 
-Sixteen current comics explore four frames: immigrant origins, technological accidents, innate mutant difference, and an extravagant money-and-equipment parody. The first three each have four eight-panel origins plus an eight-panel team story; the fourth is one eight-panel ensemble parody. Earlier short mutant versions remain available. Marlon, Jordan, Madeleine and Jonah are some of the people who led some of the many origin-story AI-generation workshops this week; this is not a complete roster of the Learning Lab. The [presentation](site/index.html) contains the selected stories and character sheets; its local readers work without an internet connection.
+Twenty-one current comics explore four frames: immigrant origins, technological accidents, innate mutant difference, and an extravagant money-and-equipment parody. The first three each have four eight-panel origins plus an eight-panel team story; the fourth is one eight-panel ensemble parody; and a Golden Age printed edition re-renders the five immigrant-frame stories, text unchanged, as 1938–1946 four-color newsprint comics. Earlier short mutant versions remain available. Marlon, Jordan, Madeleine and Jonah are some of the people who led some of the many origin-story AI-generation workshops this week; this is not a complete roster of the Learning Lab. The [presentation](site/index.html) contains the selected stories and character sheets; its local readers work without an internet connection.
 
 The reusable [origin-story skill](.agents/skills/origin-story/SKILL.md) turns supplied context into four- or eight-panel comics. It can offer a short follow-up or a longer interview, proceed immediately when asked to use what it has, write scene-setting captions before rendering, generate whole four-panel pages or individual panels, and assemble several origins into a team story. Character sheets can use supplied photos and are compressed to JPEG before reuse. A new comic folder includes an editable script, prompts, images, and a standalone page reader/gallery.
 
@@ -53,6 +53,8 @@ This built-in route is available only when the agent host supplies it; the repos
 The commands also have pnpm shortcuts: `pnpm comic`, `pnpm image`, `pnpm text`, and `pnpm compress-image`. The [utility guide](utils/README.md) explains provider routes, image inputs, output records, compression, and fal recovery.
 
 ## Use the agent skill
+
+For a fresh agent session, start with the [Codex handoff](_context/codex-handoff.md), including a ready-to-copy prompt, production commands, and publication steps.
 
 The canonical skill lives at `.agents/skills/origin-story/`; `.claude/skills/origin-story` is a relative symlink to it. In an agent that discovers repository skills, ask it to use `origin-story` with your supplied text, desired four/eight-panel scope, style, output location, and optional photos. You can say “just go with what you have” to skip an interview. Read [SKILL.md](.agents/skills/origin-story/SKILL.md) directly if your agent needs an explicit path.
 

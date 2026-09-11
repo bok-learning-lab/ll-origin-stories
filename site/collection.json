@@ -15,7 +15,12 @@
     "madeleine-the-forbidden-index-unabridged",
     "jonah-between-the-lines-expanded",
     "learning-lab-unclassified",
-    "the-discretionary-avengers"
+    "the-discretionary-avengers",
+    "under-a-different-sun-golden-age",
+    "jordan-in-living-color-golden-age",
+    "the-living-index-golden-age",
+    "the-world-that-stayed-golden-age",
+    "the-learning-lab-assemble-golden-age"
   ],
   "earlierMutantVersions": [
     "marlon-the-unapproved-mind",
@@ -23,6 +28,6 @@
     "madeleine-the-forbidden-index",
     "jonah-between-the-lines"
   ],
-  "comicCount": 16,
-  "storyPages": 32
+  "comicCount": 21,
+  "storyPages": 42
 }

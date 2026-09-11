@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "Jordan in Living Color: Golden Age",
+  "stories": [
+    {
+      "id": "jordan-origin",
+      "title": "Jordan in Living Color: Golden Age",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "jordan"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "jordan-origin:1",
+      "story": "jordan-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jordan-origin-page-01"
+      ]
+    },
+    {
+      "id": "jordan-origin:2",
+      "story": "jordan-origin",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jordan-origin-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jordan-origin:1",
+    "jordan-origin:2"
+  ],
+  "characters": [
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "reference": "images/characters/jordan/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan · character sheet",
+      "selected": "images/characters/jordan/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-origin-page-01",
+      "kind": "page",
+      "story": "jordan-origin",
+      "label": "Jordan in Living Color: Golden Age · page 01",
+      "selected": "images/stories/jordan-origin/jordan-origin-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-origin-page-02",
+      "kind": "page",
+      "story": "jordan-origin",
+      "label": "Jordan in Living Color: Golden Age · page 02",
+      "selected": "images/stories/jordan-origin/jordan-origin-page-02/take-02/image-01.png"
+    }
+  ]
+}

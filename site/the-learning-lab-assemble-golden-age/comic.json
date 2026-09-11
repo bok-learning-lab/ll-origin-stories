@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "title": "The Learning Lab Assemble: Golden Age",
+  "stories": [
+    {
+      "id": "team-assembly",
+      "title": "The Learning Lab Assemble: Golden Age",
+      "role": "frame",
+      "panels": 8,
+      "characters": [
+        "marlon",
+        "jordan",
+        "madeleine",
+        "jonah"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "team-assembly:1",
+      "story": "team-assembly",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "team-assembly-page-01"
+      ]
+    },
+    {
+      "id": "team-assembly:2",
+      "story": "team-assembly",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "team-assembly-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "team-assembly:1",
+    "team-assembly:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon",
+      "name": "Marlon",
+      "reference": "images/characters/marlon/take-01/reference.jpg"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "reference": "images/characters/jordan/take-01/reference.jpg"
+    },
+    {
+      "id": "madeleine",
+      "name": "Madeleine",
+      "reference": "images/characters/madeleine/take-02/reference.jpg"
+    },
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/characters/jonah/take-02/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon",
+      "kind": "character",
+      "character": "marlon",
+      "label": "Marlon · character sheet",
+      "selected": "images/characters/marlon/take-01/image-01.png"
+    },
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan · character sheet",
+      "selected": "images/characters/jordan/take-01/image-01.png"
+    },
+    {
+      "id": "character-madeleine",
+      "kind": "character",
+      "character": "madeleine",
+      "label": "Madeleine · character sheet",
+      "selected": "images/characters/madeleine/take-02/image-01.png"
+    },
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/characters/jonah/take-02/image-01.png"
+    },
+    {
+      "id": "team-assembly-page-01",
+      "kind": "page",
+      "story": "team-assembly",
+      "label": "The Learning Lab Assemble: Golden Age · page 01",
+      "selected": "images/stories/team-assembly/team-assembly-page-01/take-06/image-01.png"
+    },
+    {
+      "id": "team-assembly-page-02",
+      "kind": "page",
+      "story": "team-assembly",
+      "label": "The Learning Lab Assemble: Golden Age · page 02",
+      "selected": "images/stories/team-assembly/team-assembly-page-02/take-02/image-01.png"
+    },
+    {
+      "id": "team-cover",
+      "kind": "cover",
+      "story": "team-assembly",
+      "label": "The Learning Lab Assemble: Golden Age · full-size cover",
+      "selected": "images/stories/team-assembly/team-cover/take-01/image-01.png"
+    }
+  ],
+  "cover": "images/stories/team-assembly/team-cover/take-01/image-01.png"
+}

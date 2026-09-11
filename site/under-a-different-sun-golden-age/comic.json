@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "title": "Under a Different Sun: Golden Age",
+  "stories": [
+    {
+      "id": "marlon-origin",
+      "title": "Under a Different Sun: Golden Age",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "marlon-younger",
+        "marlon-older"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon-origin:1",
+      "story": "marlon-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-01"
+      ]
+    },
+    {
+      "id": "marlon-origin:2",
+      "story": "marlon-origin",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon-origin:1",
+    "marlon-origin:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon-younger",
+      "name": "Marlon — younger, before escape",
+      "reference": "images/characters/marlon-younger/take-02/reference.jpg"
+    },
+    {
+      "id": "marlon-older",
+      "name": "Marlon — older, after escape",
+      "reference": "images/characters/marlon-older/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon-younger",
+      "kind": "character",
+      "character": "marlon-younger",
+      "label": "Marlon — younger, before escape · character sheet",
+      "selected": "images/characters/marlon-younger/take-02/image-01.png"
+    },
+    {
+      "id": "character-marlon-older",
+      "kind": "character",
+      "character": "marlon-older",
+      "label": "Marlon — older, after escape · character sheet",
+      "selected": "images/characters/marlon-older/take-01/image-01.png"
+    },
+    {
+      "id": "marlon-origin-page-01",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Under a Different Sun: Golden Age · page 01",
+      "selected": "images/stories/marlon-origin/marlon-origin-page-01/take-03/image-01.png"
+    },
+    {
+      "id": "marlon-origin-page-02",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Under a Different Sun: Golden Age · page 02",
+      "selected": "images/stories/marlon-origin/marlon-origin-page-02/take-07/image-01.png"
+    }
+  ]
+}
