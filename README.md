@@ -78,6 +78,8 @@ pnpm build
 pnpm check:site
 ```
 
-The build copies only the presentation to `dist/`; keys, utilities, skill instructions and private editorial files are not deployed. A manual GitHub Pages workflow is included. As of setup, bok-learning-lab is on GitHub Free, so public Pages from this private repository requires GitHub Team/Enterprise or a separately authorized public site repository. Hosting is not enabled automatically. The repository stays private until Marlon chooses otherwise.
+The build copies only the presentation to `dist/`; keys, utilities and skill instructions are not deployed as website files. GitHub Pages publishes it automatically on pushes to `main`, and the workflow can also be run manually. The repository is public, so all tracked source—including `_context/` editorial drafts—is visible on GitHub. Populated credentials, source photographs and full production runs remain local and gitignored.
+
+Live site: https://bok-learning-lab.github.io/ll-origin-stories/
 
 The [process post](site/how-this-was-made.html) follows the activity from TDM 155AI through this week’s workshops, Friday’s Claude conversation, and skill-building and generation with Astra. Its source is [_context/how-this-was-made.md](_context/how-this-was-made.md).
