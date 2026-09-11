@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "The Closed Index",
+  "stories": [
+    {
+      "id": "madeleine",
+      "title": "Madeleine: The Closed Index",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "villains"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "madeleine:1",
+      "story": "madeleine",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "madeleine-page-01"
+      ]
+    },
+    {
+      "id": "madeleine:2",
+      "story": "madeleine",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "madeleine-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "madeleine:1",
+    "madeleine:2"
+  ],
+  "characters": [
+    {
+      "id": "villains",
+      "name": "The villain edition cast",
+      "reference": "images/characters/villains/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-villains",
+      "kind": "character",
+      "character": "villains",
+      "label": "The villain edition cast · character sheet",
+      "selected": "images/characters/villains/take-01/image-01.png"
+    },
+    {
+      "id": "madeleine-page-01",
+      "kind": "page",
+      "story": "madeleine",
+      "label": "Madeleine: The Closed Index · page 01",
+      "selected": "images/stories/madeleine/madeleine-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "madeleine-page-02",
+      "kind": "page",
+      "story": "madeleine",
+      "label": "Madeleine: The Closed Index · page 02",
+      "selected": "images/stories/madeleine/madeleine-page-02/take-01/image-01.png"
+    }
+  ]
+}

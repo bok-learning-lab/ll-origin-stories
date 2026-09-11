@@ -5,6 +5,11 @@
     "the-living-index",
     "the-world-that-stayed",
     "the-learning-lab-assemble",
+    "under-a-different-sun-golden-age",
+    "jordan-in-living-color-golden-age",
+    "the-living-index-golden-age",
+    "the-world-that-stayed-golden-age",
+    "the-learning-lab-assemble-golden-age",
     "marlon-the-pattern-event",
     "jordan-the-prismatic-incident",
     "madeleine-the-living-spectrum",
@@ -15,12 +20,16 @@
     "madeleine-the-forbidden-index-unabridged",
     "jonah-between-the-lines-expanded",
     "learning-lab-unclassified",
+    "marlon-the-narrative-asset",
+    "jordan-the-taste-regime",
+    "madeleine-the-rare-life",
+    "jonah-both-sides-of-paradise",
     "the-discretionary-avengers",
-    "under-a-different-sun-golden-age",
-    "jordan-in-living-color-golden-age",
-    "the-living-index-golden-age",
-    "the-world-that-stayed-golden-age",
-    "the-learning-lab-assemble-golden-age"
+    "marlon-the-final-draft",
+    "jordan-the-chromarch",
+    "madeleine-the-closed-index",
+    "jonah-the-double-bind",
+    "the-institute-for-your-own-good"
   ],
   "earlierMutantVersions": [
     "marlon-the-unapproved-mind",
@@ -28,6 +37,6 @@
     "madeleine-the-forbidden-index",
     "jonah-between-the-lines"
   ],
-  "comicCount": 21,
-  "storyPages": 42
+  "comicCount": 30,
+  "storyPages": 60
 }

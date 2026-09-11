@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "The Narrative Asset",
+  "stories": [
+    {
+      "id": "marlon",
+      "title": "Marlon: The Narrative Asset",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "ensemble"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon:1",
+      "story": "marlon",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-page-01"
+      ]
+    },
+    {
+      "id": "marlon:2",
+      "story": "marlon",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "marlon-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon:1",
+    "marlon:2"
+  ],
+  "characters": [
+    {
+      "id": "ensemble",
+      "name": "Affluent edition cast reference",
+      "reference": "images/characters/ensemble/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-ensemble",
+      "kind": "character",
+      "character": "ensemble",
+      "label": "Affluent edition cast reference · character sheet",
+      "selected": "images/characters/ensemble/take-01/image-01.png"
+    },
+    {
+      "id": "marlon-page-01",
+      "kind": "page",
+      "story": "marlon",
+      "label": "Marlon: The Narrative Asset · page 01",
+      "selected": "images/stories/marlon/marlon-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "marlon-page-02",
+      "kind": "page",
+      "story": "marlon",
+      "label": "Marlon: The Narrative Asset · page 02",
+      "selected": "images/stories/marlon/marlon-page-02/take-01/image-01.png"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "The Chromarch",
+  "stories": [
+    {
+      "id": "jordan",
+      "title": "Jordan: The Chromarch",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "villains"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "jordan:1",
+      "story": "jordan",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jordan-page-01"
+      ]
+    },
+    {
+      "id": "jordan:2",
+      "story": "jordan",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jordan-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jordan:1",
+    "jordan:2"
+  ],
+  "characters": [
+    {
+      "id": "villains",
+      "name": "The villain edition cast",
+      "reference": "images/characters/villains/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-villains",
+      "kind": "character",
+      "character": "villains",
+      "label": "The villain edition cast · character sheet",
+      "selected": "images/characters/villains/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-page-01",
+      "kind": "page",
+      "story": "jordan",
+      "label": "Jordan: The Chromarch · page 01",
+      "selected": "images/stories/jordan/jordan-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-page-02",
+      "kind": "page",
+      "story": "jordan",
+      "label": "Jordan: The Chromarch · page 02",
+      "selected": "images/stories/jordan/jordan-page-02/take-01/image-01.png"
+    }
+  ]
+}

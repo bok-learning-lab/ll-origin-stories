@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "Both Sides of Paradise",
+  "stories": [
+    {
+      "id": "jonah",
+      "title": "Jonah: Both Sides of Paradise",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "ensemble"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "jonah:1",
+      "story": "jonah",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jonah-page-01"
+      ]
+    },
+    {
+      "id": "jonah:2",
+      "story": "jonah",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jonah-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jonah:1",
+    "jonah:2"
+  ],
+  "characters": [
+    {
+      "id": "ensemble",
+      "name": "Affluent edition cast reference",
+      "reference": "images/characters/ensemble/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-ensemble",
+      "kind": "character",
+      "character": "ensemble",
+      "label": "Affluent edition cast reference · character sheet",
+      "selected": "images/characters/ensemble/take-01/image-01.png"
+    },
+    {
+      "id": "jonah-page-01",
+      "kind": "page",
+      "story": "jonah",
+      "label": "Jonah: Both Sides of Paradise · page 01",
+      "selected": "images/stories/jonah/jonah-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "jonah-page-02",
+      "kind": "page",
+      "story": "jonah",
+      "label": "Jonah: Both Sides of Paradise · page 02",
+      "selected": "images/stories/jonah/jonah-page-02/take-01/image-01.png"
+    }
+  ]
+}
