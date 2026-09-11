@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "Jonah Between the Lines Expanded",
+  "stories": [
+    {
+      "id": "jonah-dark-expanded",
+      "title": "Jonah: Between the Lines — Expanded",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "jonah"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "jonah-dark-expanded:1",
+      "story": "jonah-dark-expanded",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jonah-dark-expanded-page-01"
+      ]
+    },
+    {
+      "id": "jonah-dark-expanded:2",
+      "story": "jonah-dark-expanded",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jonah-dark-expanded-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jonah-dark-expanded:1",
+    "jonah-dark-expanded:2"
+  ],
+  "characters": [
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/characters/jonah/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/characters/jonah/take-01/image-01.png"
+    },
+    {
+      "id": "jonah-dark-expanded-page-01",
+      "kind": "page",
+      "story": "jonah-dark-expanded",
+      "label": "Jonah: Between the Lines — Expanded · page 01",
+      "selected": "images/stories/jonah-dark-expanded/jonah-dark-expanded-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "jonah-dark-expanded-page-02",
+      "kind": "page",
+      "story": "jonah-dark-expanded",
+      "label": "Jonah: Between the Lines — Expanded · page 02",
+      "selected": "images/stories/jonah-dark-expanded/jonah-dark-expanded-page-02/take-01/image-01.png"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Learning Lab Origin Stories
 
-Fifteen comics retell the same four workshop leaders through three explanations of a superpower: immigrant origins, technological accidents, and innate mutant difference. Marlon, Jordan, Madeleine and Jonah are some of the people who led some of the many origin-story AI-generation workshops this week; this is not a complete roster of the Learning Lab. The [presentation](site/index.html) contains the selected stories and character sheets; its local readers work without an internet connection.
+Sixteen current comics explore four frames: immigrant origins, technological accidents, innate mutant difference, and an extravagant money-and-equipment parody. The first three each have four eight-panel origins plus an eight-panel team story; the fourth is one eight-panel ensemble parody. Earlier short mutant versions remain available. Marlon, Jordan, Madeleine and Jonah are some of the people who led some of the many origin-story AI-generation workshops this week; this is not a complete roster of the Learning Lab. The [presentation](site/index.html) contains the selected stories and character sheets; its local readers work without an internet connection.
 
 The reusable [origin-story skill](.agents/skills/origin-story/SKILL.md) turns supplied context into four- or eight-panel comics. It can offer a short follow-up or a longer interview, proceed immediately when asked to use what it has, write scene-setting captions before rendering, generate whole four-panel pages or individual panels, and assemble several origins into a team story. Character sheets can use supplied photos and are compressed to JPEG before reuse. A new comic folder includes an editable script, prompts, images, and a standalone page reader/gallery.
 
@@ -48,7 +48,7 @@ An agent environment with a built-in image-generation tool can use that tool for
 node utils/comic.mjs import output/the-mapmaker mapmaker-page-01 /path/to/generated-page.png
 ```
 
-This built-in route is available only when the agent host supplies it; the repository does not bundle or emulate that service. It is an alternative to the provider CLI routes, and it does not use this repository's API keys. The fifteen included comics used native image generation, so they do not establish that the OpenRouter, fal or HUIT API adapters have been tested with live accounts.
+This built-in route is available only when the agent host supplies it; the repository does not bundle or emulate that service. It is an alternative to the provider CLI routes, and it does not use this repository's API keys. The included comics used native image generation, so they do not establish that the OpenRouter, fal or HUIT API adapters have been tested with live accounts.
 
 The commands also have pnpm shortcuts: `pnpm comic`, `pnpm image`, `pnpm text`, and `pnpm compress-image`. The [utility guide](utils/README.md) explains provider routes, image inputs, output records, compression, and fal recovery.
 
@@ -79,3 +79,5 @@ pnpm check:site
 ```
 
 The build copies only the presentation to `dist/`; keys, utilities, skill instructions and private editorial files are not deployed. A manual GitHub Pages workflow is included. As of setup, bok-learning-lab is on GitHub Free, so public Pages from this private repository requires GitHub Team/Enterprise or a separately authorized public site repository. Hosting is not enabled automatically. The repository stays private until Marlon chooses otherwise.
+
+The [process post](site/how-this-was-made.html) follows the activity from TDM 155AI through this week’s workshops, Friday’s Claude conversation, and skill-building and generation with Astra. Its source is [_context/how-this-was-made.md](_context/how-this-was-made.md).

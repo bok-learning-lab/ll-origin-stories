@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "Marlon The Unapproved Mind Expanded",
+  "stories": [
+    {
+      "id": "marlon-mutant-expanded",
+      "title": "Marlon: The Unapproved Mind — Expanded",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "marlon"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon-mutant-expanded:1",
+      "story": "marlon-mutant-expanded",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-mutant-expanded-page-01"
+      ]
+    },
+    {
+      "id": "marlon-mutant-expanded:2",
+      "story": "marlon-mutant-expanded",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "marlon-mutant-expanded-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon-mutant-expanded:1",
+    "marlon-mutant-expanded:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon",
+      "name": "Marlon",
+      "reference": "images/characters/marlon/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon",
+      "kind": "character",
+      "character": "marlon",
+      "label": "Marlon · character sheet",
+      "selected": "images/characters/marlon/take-01/image-01.png"
+    },
+    {
+      "id": "marlon-mutant-expanded-page-01",
+      "kind": "page",
+      "story": "marlon-mutant-expanded",
+      "label": "Marlon: The Unapproved Mind — Expanded · page 01",
+      "selected": "images/stories/marlon-mutant-expanded/marlon-mutant-expanded-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "marlon-mutant-expanded-page-02",
+      "kind": "page",
+      "story": "marlon-mutant-expanded",
+      "label": "Marlon: The Unapproved Mind — Expanded · page 02",
+      "selected": "images/stories/marlon-mutant-expanded/marlon-mutant-expanded-page-02/take-01/image-01.png"
+    }
+  ]
+}

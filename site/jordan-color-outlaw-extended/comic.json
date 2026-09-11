@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "Jordan — Color Outlaw: Extended",
+  "stories": [
+    {
+      "id": "jordan-mutant",
+      "title": "Jordan — Color Outlaw: Extended",
+      "role": "origin",
+      "panels": 8,
+      "characters": [
+        "jordan"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "jordan-mutant:1",
+      "story": "jordan-mutant",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jordan-mutant-page-01"
+      ]
+    },
+    {
+      "id": "jordan-mutant:2",
+      "story": "jordan-mutant",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jordan-mutant-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jordan-mutant:1",
+    "jordan-mutant:2"
+  ],
+  "characters": [
+    {
+      "id": "jordan",
+      "name": "Jordan Koffman",
+      "reference": "images/characters/jordan/take-01/reference.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan Koffman · character sheet",
+      "selected": "images/characters/jordan/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-mutant-page-01",
+      "kind": "page",
+      "story": "jordan-mutant",
+      "label": "Jordan — Color Outlaw: Extended · page 01",
+      "selected": "images/stories/jordan-mutant/jordan-mutant-page-01/take-01/image-01.png"
+    },
+    {
+      "id": "jordan-mutant-page-02",
+      "kind": "page",
+      "story": "jordan-mutant",
+      "label": "Jordan — Color Outlaw: Extended · page 02",
+      "selected": "images/stories/jordan-mutant/jordan-mutant-page-02/take-01/image-01.png"
+    }
+  ]
+}
