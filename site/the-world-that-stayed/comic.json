@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "title": "The World That Stayed",
+  "stories": [
+    {
+      "id": "jonah-origin",
+      "title": "The World That Stayed",
+      "role": "origin",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "jonah-origin:1",
+      "story": "jonah-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jonah-origin-page-01"
+      ]
+    },
+    {
+      "id": "jonah-origin:2",
+      "story": "jonah-origin",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jonah-origin-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jonah-origin:1",
+    "jonah-origin:2"
+  ],
+  "characters": [
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "jonah-origin-page-01",
+      "kind": "page",
+      "story": "jonah-origin",
+      "label": "The World That Stayed · page 01",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "jonah-origin-page-02",
+      "kind": "page",
+      "story": "jonah-origin",
+      "label": "The World That Stayed · page 02",
+      "selected": "images/art-03.png"
+    }
+  ]
+}

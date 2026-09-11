@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "title": "The Learning Lab: Assemble",
+  "stories": [
+    {
+      "id": "team-assembly",
+      "title": "The Learning Lab: Assemble",
+      "role": "frame",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "team-assembly:1",
+      "story": "team-assembly",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "team-assembly-page-01"
+      ]
+    },
+    {
+      "id": "team-assembly:2",
+      "story": "team-assembly",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "team-assembly-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "team-assembly:1",
+    "team-assembly:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon",
+      "name": "Marlon",
+      "reference": "images/character-reference-01.jpg"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "reference": "images/character-reference-02.jpg"
+    },
+    {
+      "id": "madeleine",
+      "name": "Madeleine",
+      "reference": "images/character-reference-03.jpg"
+    },
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/character-reference-04.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon",
+      "kind": "character",
+      "character": "marlon",
+      "label": "Marlon · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan · character sheet",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "character-madeleine",
+      "kind": "character",
+      "character": "madeleine",
+      "label": "Madeleine · character sheet",
+      "selected": "images/art-03.png"
+    },
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/art-04.png"
+    },
+    {
+      "id": "team-assembly-page-01",
+      "kind": "page",
+      "story": "team-assembly",
+      "label": "The Learning Lab: Assemble · page 01",
+      "selected": "images/art-05.png"
+    },
+    {
+      "id": "team-assembly-page-02",
+      "kind": "page",
+      "story": "team-assembly",
+      "label": "The Learning Lab: Assemble · page 02",
+      "selected": "images/art-06.png"
+    },
+    {
+      "id": "team-cover",
+      "kind": "cover",
+      "story": "team-assembly",
+      "label": "The Learning Lab: Assemble! · full-size cover",
+      "selected": "images/art-07.png"
+    }
+  ],
+  "cover": "images/art-07.png"
+}

@@ -1,0 +1,40 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# Node dependencies, builds, caches and logs
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+.turbo/
+.vercel/
+.cache/
+coverage/
+.nyc_output/
+*.log
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+report.*.json
+
+# Local generation runs and temporary work
+output/
+tmp/
+temp/
+scratch/
+_raw/
+
+# Operating system and editor state
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp

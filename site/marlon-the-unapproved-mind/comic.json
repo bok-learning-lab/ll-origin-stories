@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "Marlon: The Unapproved Mind",
+  "stories": [
+    {
+      "id": "marlon-origin",
+      "title": "Marlon: The Unapproved Mind",
+      "role": "origin",
+      "panels": 4
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon-origin:1",
+      "story": "marlon-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-01"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon-origin:1"
+  ],
+  "characters": [
+    {
+      "id": "marlon",
+      "name": "Marlon",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon",
+      "kind": "character",
+      "character": "marlon",
+      "label": "Marlon · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "marlon-origin-page-01",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Marlon: The Unapproved Mind · page 01",
+      "selected": "images/art-02.png"
+    }
+  ]
+}

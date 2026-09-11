@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "title": "Jordan — The Prismatic Incident",
+  "stories": [
+    {
+      "id": "jordan-prismatic",
+      "title": "Jordan — The Prismatic Incident",
+      "role": "origin",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "jordan-prismatic:1",
+      "story": "jordan-prismatic",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jordan-prismatic-page-01"
+      ]
+    },
+    {
+      "id": "jordan-prismatic:2",
+      "story": "jordan-prismatic",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jordan-prismatic-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jordan-prismatic:1",
+    "jordan-prismatic:2"
+  ],
+  "characters": [
+    {
+      "id": "jordan",
+      "name": "Jordan Koffman",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan Koffman · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "jordan-prismatic-page-01",
+      "kind": "page",
+      "story": "jordan-prismatic",
+      "label": "Jordan — The Prismatic Incident · page 01",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "jordan-prismatic-page-02",
+      "kind": "page",
+      "story": "jordan-prismatic",
+      "label": "Jordan — The Prismatic Incident · page 02",
+      "selected": "images/art-03.png"
+    }
+  ]
+}

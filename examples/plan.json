@@ -1,0 +1,10 @@
+{
+  "title": "The Mapmaker",
+  "sourceText": "A fictional four-panel example about a maker who helps a group understand tangled ideas. No real biography or photographs are used. The supplied script is already written; initialization does not generate text or images.",
+  "style": "Expressive graphic comic inks, cream narration boxes, teal and gold color, friendly playful tone.",
+  "render": {"mode": "page"},
+  "characters": [],
+  "stories": [
+    {"id": "mapmaker", "title": "The Mapmaker", "script": "story.md", "characters": []}
+  ]
+}

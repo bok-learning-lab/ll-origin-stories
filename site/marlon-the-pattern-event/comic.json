@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "title": "Marlon: The Pattern Event",
+  "stories": [
+    {
+      "id": "marlon-origin",
+      "title": "Marlon: The Pattern Event",
+      "role": "origin",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon-origin:1",
+      "story": "marlon-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-01"
+      ]
+    },
+    {
+      "id": "marlon-origin:2",
+      "story": "marlon-origin",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon-origin:1",
+    "marlon-origin:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon",
+      "name": "Marlon",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon",
+      "kind": "character",
+      "character": "marlon",
+      "label": "Marlon · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "marlon-origin-page-01",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Marlon: The Pattern Event · page 01",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "marlon-origin-page-02",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Marlon: The Pattern Event · page 02",
+      "selected": "images/art-03.png"
+    }
+  ]
+}

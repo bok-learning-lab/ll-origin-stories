@@ -1,0 +1,26 @@
+{
+  "name": "@bok-learning-lab/ll-origin-stories",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learning Lab origin comics, reusable agent skill, and portable generation tools",
+  "type": "module",
+  "packageManager": "pnpm@10.7.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "text": "node utils/generate-text.mjs",
+    "image": "node utils/generate-image.mjs",
+    "comic": "node utils/comic.mjs",
+    "compress-image": "node utils/compress-image.mjs",
+    "test": "node --test utils/test/*.test.mjs",
+    "build": "node scripts/build-site.mjs",
+    "check:site": "node scripts/check-site.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "marked": "^18.0.12"
+  }
+}

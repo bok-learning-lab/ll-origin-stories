@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "title": "Jonah and the Argument Ray",
+  "stories": [
+    {
+      "id": "jonah-classic",
+      "title": "Jonah and the Argument Ray",
+      "role": "origin",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "jonah-classic:1",
+      "story": "jonah-classic",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jonah-classic-page-01"
+      ]
+    },
+    {
+      "id": "jonah-classic:2",
+      "story": "jonah-classic",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "jonah-classic-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jonah-classic:1",
+    "jonah-classic:2"
+  ],
+  "characters": [
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "jonah-classic-page-01",
+      "kind": "page",
+      "story": "jonah-classic",
+      "label": "Jonah and the Argument Ray · page 01",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "jonah-classic-page-02",
+      "kind": "page",
+      "story": "jonah-classic",
+      "label": "Jonah and the Argument Ray · page 02",
+      "selected": "images/art-03.png"
+    }
+  ]
+}

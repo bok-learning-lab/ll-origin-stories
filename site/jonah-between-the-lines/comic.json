@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "Jonah Between the Lines",
+  "stories": [
+    {
+      "id": "jonah-dark",
+      "title": "Jonah Between the Lines",
+      "role": "origin",
+      "panels": 4
+    }
+  ],
+  "pages": [
+    {
+      "id": "jonah-dark:1",
+      "story": "jonah-dark",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jonah-dark-page-01"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jonah-dark:1"
+  ],
+  "characters": [
+    {
+      "id": "jonah",
+      "name": "Jonah",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jonah",
+      "kind": "character",
+      "character": "jonah",
+      "label": "Jonah · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "jonah-dark-page-01",
+      "kind": "page",
+      "story": "jonah-dark",
+      "label": "Jonah Between the Lines · page 01",
+      "selected": "images/art-02.png"
+    }
+  ]
+}

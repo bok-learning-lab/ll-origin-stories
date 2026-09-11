@@ -1,0 +1,4 @@
+interface:
+  display_name: "Origin Story"
+  short_description: "Interview, script, and illustrate personal origin comics"
+  default_prompt: "Use $origin-story to turn my context into a comic origin story, starting with a polished script."

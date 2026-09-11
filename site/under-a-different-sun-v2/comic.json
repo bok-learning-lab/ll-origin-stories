@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "title": "Under a Different Sun",
+  "stories": [
+    {
+      "id": "marlon-origin",
+      "title": "Under a Different Sun",
+      "role": "origin",
+      "panels": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "marlon-origin:1",
+      "story": "marlon-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-01"
+      ]
+    },
+    {
+      "id": "marlon-origin:2",
+      "story": "marlon-origin",
+      "number": 2,
+      "mode": "page",
+      "jobs": [
+        "marlon-origin-page-02"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "marlon-origin:1",
+    "marlon-origin:2"
+  ],
+  "characters": [
+    {
+      "id": "marlon-younger",
+      "name": "Marlon — younger, before escape",
+      "reference": "images/character-reference-01.jpg"
+    },
+    {
+      "id": "marlon-older",
+      "name": "Marlon — older, after escape",
+      "reference": "images/character-reference-02.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-marlon-younger",
+      "kind": "character",
+      "character": "marlon-younger",
+      "label": "Marlon — younger, before escape · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "character-marlon-older",
+      "kind": "character",
+      "character": "marlon-older",
+      "label": "Marlon — older, after escape · character sheet",
+      "selected": "images/art-02.png"
+    },
+    {
+      "id": "marlon-origin-page-01",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Under a Different Sun · page 01",
+      "selected": "images/art-03.png"
+    },
+    {
+      "id": "marlon-origin-page-02",
+      "kind": "page",
+      "story": "marlon-origin",
+      "label": "Under a Different Sun · page 02",
+      "selected": "images/art-04.png"
+    }
+  ]
+}

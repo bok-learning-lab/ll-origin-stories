@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "Jordan — Color Outlaw",
+  "stories": [
+    {
+      "id": "jordan-mutant",
+      "title": "Jordan — Color Outlaw",
+      "role": "origin",
+      "panels": 4
+    }
+  ],
+  "pages": [
+    {
+      "id": "jordan-mutant:1",
+      "story": "jordan-mutant",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "jordan-mutant-page-01"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "jordan-mutant:1"
+  ],
+  "characters": [
+    {
+      "id": "jordan",
+      "name": "Jordan Koffman",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-jordan",
+      "kind": "character",
+      "character": "jordan",
+      "label": "Jordan Koffman · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "jordan-mutant-page-01",
+      "kind": "page",
+      "story": "jordan-mutant",
+      "label": "Jordan — Color Outlaw · page 01",
+      "selected": "images/art-02.png"
+    }
+  ]
+}

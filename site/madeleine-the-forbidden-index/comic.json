@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "Madeleine — The Forbidden Index",
+  "stories": [
+    {
+      "id": "madeleine-origin",
+      "title": "Madeleine — The Forbidden Index",
+      "role": "origin",
+      "panels": 4
+    }
+  ],
+  "pages": [
+    {
+      "id": "madeleine-origin:1",
+      "story": "madeleine-origin",
+      "number": 1,
+      "mode": "page",
+      "jobs": [
+        "madeleine-origin-page-01"
+      ]
+    }
+  ],
+  "readingOrder": [
+    "madeleine-origin:1"
+  ],
+  "characters": [
+    {
+      "id": "madeleine",
+      "name": "Madeleine",
+      "reference": "images/character-reference-01.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "character-madeleine",
+      "kind": "character",
+      "character": "madeleine",
+      "label": "Madeleine · character sheet",
+      "selected": "images/art-01.png"
+    },
+    {
+      "id": "madeleine-origin-page-01",
+      "kind": "page",
+      "story": "madeleine-origin",
+      "label": "Madeleine — The Forbidden Index · page 01",
+      "selected": "images/art-02.png"
+    }
+  ]
+}
